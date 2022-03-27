@@ -1,6 +1,7 @@
 #pragma once
 #include <opencv2/opencv.hpp>
 #include <onnxruntime_cxx_api.h>
+#include "onnxruntime/core/providers/tensorrt/tensorrt_provider_factory.h"
 #include <utility>
 
 #include "utils.h"
